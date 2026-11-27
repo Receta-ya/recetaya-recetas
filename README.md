@@ -39,3 +39,10 @@ Repository
 Entity
     ↓
 Base de datos
+
+## API REST v1
+
+Usa el prefijo `/api/v1` para clientes nuevos. Las rutas anteriores se conservan para clientes de la EP2.
+
+- `/api/v1/detalle-recetas`
+- `/api/v1/recetas`
