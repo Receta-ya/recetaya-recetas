@@ -10,7 +10,7 @@ import com.recetas.dto.RecetaRequestDTO;
 import java.util.List;
 
 @RestController
-@RequestMapping("/recetas")
+@RequestMapping({"/api/v1/recetas", "/recetas"})
 public class RecetaController {
 
     private final RecetaService recetaService;
